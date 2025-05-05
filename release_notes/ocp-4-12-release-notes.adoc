@@ -5140,7 +5140,7 @@ $ oc adm release info 4.12.76 --pullspecs
 [id="ocp-4-12-76-bug-fixes_{context}"]
 ==== Bug fixes
 
-* Previously, the *Observe* section on the web console did not show items contributed from plugins unless certain flags related to the monitoring were set. These flags prevented other plugins, such as logging, {DTShortName}, network observability, and so on, from adding items to the *Observe* section. With this release, the monitoring flags are removed so that other plugins can add items to the *Observe* section. (link:https://issues.redhat.com/browse/OCPBUGS-52210[OCPBUGS-55210])
+* Previously, the *Observe* sections on the web console did not show items contributed from plugins unless certain flags related to the monitoring were set. These flags prevented other plugins, such as logging, {DTShortName}, network observability, and so on, from adding items to the *Observe* section. With this release, the monitoring flags are removed so that other plugins can add items to the *Observe* section. (link:https://issues.redhat.com/browse/OCPBUGS-52210[OCPBUGS-55210])
 
 [id="ocp-4-12-76-updating_{context}"]
 ==== Updating
